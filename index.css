@@ -1,0 +1,572 @@
+body {
+    font-family: 'Montserrat';
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 1920px;
+    height: 900px;
+
+    background: url(./bgc.jpg);
+    background-size: 100%;
+}
+
+.contact {
+    position: relative;
+    display: block;
+    top: 20px;
+    left: 405px;
+    right: 405px;
+
+    width: 1110px;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.contact_left {
+float: left;
+}
+
+.contact_right {
+    float: right;
+}
+
+.contact_left:hover {
+    background-color: rgba(51, 51, 51, 0.4);
+    border: 1px solid white;
+}
+.contact_left:active {
+    background-color: rgba(51, 51, 51, 0.4);
+    border: 1px solid rgb(143, 143, 143);
+}
+.contact_right:hover {
+    background-color: rgba(51, 51, 51, 0.4);
+    border: 1px solid white;
+}
+.contact_right:active {
+    background-color: rgba(51, 51, 51, 0.4);
+    border: 1px solid rgb(143, 143, 143);
+}
+
+
+nav {
+    position: absolute;
+    display: flex;
+    top: 70px;
+    left: 405px;
+
+    width: 1110px;
+
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+
+    /*padding-top: 15px;
+    padding-bottom: 15px;
+
+    justify-content: space-around;*/
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 99px;
+    padding-right: 99px;
+}
+
+nav a:nth-child(2) {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+nav a:nth-child(3) {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-right:94px;
+}
+
+nav a:hover {
+    background-color: rgb(255, 255, 255,0.2);
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+nav a:active {
+    background-color: rgb(0, 0, 0,0.2);
+    color: rgb(255, 255, 255,0.5);
+}
+
+header button {
+    position: absolute;
+    top: 700px;
+
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    background-color: #99862A;
+    
+    border: 5px solid #99862A;
+
+    padding: 15px 30px 15px 30px;
+    margin-left: 30px;
+}
+
+.headbtleft {
+    left: 752px;
+}
+.headbtright {
+    right: 752px;
+}
+
+header button:hover {
+    cursor: pointer;
+    background-color:rgb(163, 153, 47);
+    border-color: rgb(163, 153, 47);
+    color: rgb(230, 230, 230);
+}
+
+header button:active {
+    background-color: rgb(255, 255, 255,0.5);
+    color: #998431;
+}
+
+.part2 {
+    position: absolute;
+    top: 900px;
+    left: 0;
+    height: 856px;
+    width: 1920px;
+
+    background-color: #282828;
+    color: white;
+}
+
+.part2 div {
+    position: relative;
+    top: 100px;
+    left: 405px;
+    height: 656px;
+    width: 1110px;
+    
+    border: 1px solid white;
+}
+
+.part2 div h2 {
+    position: absolute;
+    top: 60px;
+    left: 187px;
+
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.part2 div p {
+    position: absolute;
+    top: 194px;
+    left: 190px;
+    height: 192px;
+    width: 733px;
+
+    text-align: center;
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.part2 div p::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: -40px;
+    left: 285px;
+    width: 160px;
+    height: 0px;
+
+    border-top: 1px solid white;
+}
+
+.part2 div img {
+    position: absolute;
+    display: block;
+    height: 160px;
+    width: 160px;
+    bottom: 60px;
+    left: 475px;
+}
+
+.part3 {
+    position: absolute;
+    height: 1038px;
+    width: 1920px;
+    top:1756px;
+    left: 0;
+
+    background-color: #E6E3C4;
+}
+
+.part3 div {
+    position: absolute;
+    top:80px;
+    left: 405px;
+    height: 878px;
+    width: 1110px;
+
+    border-top: 1px solid #998431;
+    border-bottom: 1px solid #998431;  
+    
+    color: #282828;
+
+    font-size: 14px;
+}
+
+.p3top {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    height: 24px;
+    width: 347px;
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.p3top2 {
+    position: absolute;
+    top: 114px;
+    left: 0;
+    height: 108px;
+    width: 298px;
+
+    font-size: 36px;
+    font-family: "Playfair Display",sans-serif;
+}
+
+.p3mid {
+    position: absolute;
+    top: 282px;
+    left: 0;
+    height: 84px;
+    width: 445px;
+}
+
+.p3mid2 {
+    position: absolute;
+    top:396px;
+    left: 0;
+
+    border-collapse: collapse;
+}
+
+.tbmid {
+    border-top: 1px solid #282828;
+    border-bottom: 1px solid #282828;
+}
+
+.tbleft {
+    border-right: 1px solid #282828;
+    padding-right: 24px;
+}
+
+.tbright {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.tbfir {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+
+    margin-bottom: 5px;
+}
+
+.part3 p {
+    margin: 0;
+}
+
+.p3bot {
+    position: absolute;
+    top: 654px;
+    left: 0;
+    height: 84px;
+    width: 445px;
+}
+
+.part3 button {
+    position: absolute;
+    top: 768px;
+    left: 0;
+    
+    padding: 15px 30px 15px 30px;
+    gap: 10px;
+
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+
+    background-color: #998431;
+
+    border: 0;
+}
+
+.part3 button:hover {
+    cursor: pointer;
+    background-color:rgb(163, 153, 47);
+    border-color: rgb(163, 153, 47);
+    color: rgb(230, 230, 230);
+}
+
+.part3 button:active {
+    background-color: rgb(255, 255, 255,0.5);
+    color: #998431;
+}
+
+.part3 img {
+    position: absolute;
+}
+
+.rec1 {
+    top: 60px;
+    right: 0;
+    width: 540px;
+    height: 500px;
+}
+
+.rec2 {
+    top: 590px;
+    width: 255px;
+    height: 228px;
+    right: 285px;
+}
+.rec3 {
+    top: 590px;
+    width: 255px;
+    height: 228px;
+    right: 0;
+}
+
+.part4 {
+    position: absolute;
+    top: 2794px;
+    left: 0;
+    height: 767px;
+    width: 1920px;
+
+    background-color: #282828;
+}
+
+.part4 fieldset {
+    position: absolute;
+    top: 129px;
+    left: 405px;
+    width: 1110px;
+    height: 538px;
+
+    border: 3px solid white;
+    color: white;
+}
+
+.part4 legend {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Playfair Display", sans-serif;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.part4 p {
+    position: absolute;
+    top: 105px;
+    left: 286px;
+    height: 72px;
+    width: 539px;
+
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.part4 img {
+    position: absolute;
+    bottom: 403px;
+    height: 200px;
+    width: 260px;
+}
+.leftfield {
+    left: -30px;
+}
+.rightfield {
+    right: -30px;
+}
+
+.part4 input {
+    position: absolute;
+    
+    border: 0;
+    border-bottom: 1px solid white;
+    outline: 0;
+
+    background-color: #282828;
+
+    color: white;
+}
+
+.part4 input::placeholder {
+    color: white;
+}
+
+.inname {
+    top: 258px;
+    left: 286px;
+    height: 30px;
+    width: 254px;
+}
+
+.intel {
+    top:258px;
+    right: 303px;
+    height: 30px;
+    width: 254px;
+}
+
+.inadress {
+    top: 328px;
+    left: 286px;
+    height: 30px;
+    width: 540px;
+}
+
+.part4 input:focus {
+   outline: 0;
+}
+
+.part4 button {
+    position: absolute;
+    top: 408px;
+    left: 284px;
+    width: 545px;
+
+    padding: 15px 30px 15px 30px;
+
+    color: white;
+    text-transform: uppercase;
+
+    background-color: #282828;
+
+    border: 1px solid white;
+}
+
+.part4 button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255,0.1);
+}
+
+.part4 button:active {
+    background-color: rgb(255, 255, 255,0.8);
+    color: black;
+    border-color: black;
+}
+
+footer {
+    position: absolute;
+    top: 3561px;
+    left: 0;
+    height: 220px;
+    width: 1920px;
+
+    background-color: #998431;
+}
+
+footer table {
+    position: absolute;
+    top: 50px;
+    left: 405px;
+
+    width: 1150px;
+
+    border-collapse: collapse;
+}
+
+footer table tr {
+    border: 1px solid white;
+    border-left: 0;
+    border-right: 0;
+
+}
+
+.fotfir {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fotfir td {
+    padding: 0;
+    margin: 0;
+    width: 160px;
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fotfir td a {
+    text-decoration: none;
+    color: white;
+}
+
+.fotsec {
+   border-spacing: 50px;
+}
+.fotsec td {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fotsec td a {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.fotsec td a img {
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.fotsec td:nth-of-type(2) {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.fotsec td:nth-of-type(3) {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+footer td:hover {
+    background-color: rgb(255, 255, 255,0.2);
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+footer td:active {
+    background-color: rgb(0, 0, 0,0.4);
+}
